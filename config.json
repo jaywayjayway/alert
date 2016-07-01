@@ -1,0 +1,11 @@
+{
+    "ceph_config": "/etc/ceph/ceph.conf",
+    "influxdb": {
+        "uri": "influxdb://localhost:8086/example",
+        "user": "root",
+        "query":"select * from cpu_load_short "
+            },
+    "smtp_uri":"smtp://test:test@localhost:25"
+        
+}
+
